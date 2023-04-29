@@ -15,4 +15,6 @@ git checkout master     # 切换到master分支
 git remote add origin https://github.com/name/Project.git   # 关联github仓库，一个项目只需关联一次
 git push origin main    # 把本地仓库推向远程GitHub仓库的main分支
 git pull origin main    # 把远程GitHub仓库的main分支拉回本地仓库
+
+git config --global --add safe.directory 'D:/Microsoft VS Code/MyCode/Github/LeetCode'  # 将当前目录与github关联
 ```
