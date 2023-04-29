@@ -3,8 +3,9 @@ using namespace std;
 
 int main(){  
 
-    cout<<"Hello world"<<endl;
-    system("pause>0");
+    int age =10;
+    int * pointsToInt = &age;
+     cout<<"dizhi:"<<hex<<pointsToInt<<endl;
 
     return 0;
 }
