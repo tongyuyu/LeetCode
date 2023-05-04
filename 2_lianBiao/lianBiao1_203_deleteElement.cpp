@@ -1,5 +1,5 @@
-#include <iostream>
-#include <vector>
+#include<iostream>
+#include<vector>
 using namespace std;
 
 struct ListNode{
@@ -72,8 +72,6 @@ int main() {
         cout<<p1->val<<", ";
         p1=p1->next;
     }
-
-
 
     return 0;
 }
